@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conatiner">
+        <form action="" method="post">
+            {%csrf_token%}
+            <label for="">number1</label>
+            <input type="text" name="box1" required>
+
+            <label for="">Number2</label>
+            <input type="text" name="box2"required>
+
+            <button>MULTI</button>
+            {{output}}
+        </form>
+    </div>
+</body>
+</html>
